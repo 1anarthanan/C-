@@ -1,0 +1,35 @@
+using System;
+class Display_Book {
+    public static void BookDisplay(string BookTitle,double Bookprice,double Bookpage,string publisher)
+    {
+    
+        Console.WriteLine("-----Your BOOK DETAILS------")
+        Console.WriteLine("Book Title:{0}",BookTitle);
+        Console.WriteLine("Book price:{0}",Bookprice,"rupees");
+        Console.WriteLine("Book pages:{0}",Bookpage);
+        Console.WriteLine("Book publisher:{0}",publisher);
+        
+    }
+ public static void Main()
+ {
+     string BookTitle,publisher;
+     double Bookpage,Bookprice;
+     Console.WriteLine("----Welcome to BOOKSTORE----");
+     Console.WriteLine("Please enter the Book Title");
+     BookTitle=Console.ReadLine();
+        Console.WriteLine("Please enter the Book price:");
+        Bookprice=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Please enter the number of pages:");
+        Bookpage=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Please enter the publisher name");
+        publisher=Console.ReadLine();
+        
+        //Call the userdefined function/method 
+        BookDisplay(BookTitle,Bookprice,Bookpage,publisher);
+        
+        Console.WriteLine("press any button to continue");
+        Console.ReadLine();
+        
+
+  }
+}
