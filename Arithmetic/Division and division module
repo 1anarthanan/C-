@@ -1,0 +1,18 @@
+//Division and division module
+using System;
+
+public class Div_mod
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("--Division and division module---");
+        Console.WriteLine("Enter the num1:");
+        var num1=Convert.ToInt32(Console.ReadLine());//get input from user,using type casting
+        Console.WriteLine("Enter the num2");
+        var num2=Convert.ToInt32(Console.ReadLine());//get input from user,using type casting
+        Console.WriteLine("Quotient  of "+num1+"/"+num2+"="+(num1/num2));//using "/" returns the quotient
+        Console.WriteLine("Remainder of "+num1+"%"+num1+"="+(num1%num2));// using modules "%" returns reminder
+      
+        
+    }
+}
