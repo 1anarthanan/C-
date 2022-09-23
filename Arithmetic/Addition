@@ -1,0 +1,20 @@
+//Addition
+using System;
+
+public class Add
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("--Adding of two  numbers---");
+        Console.WriteLine("Enter the num1:");
+        var num1=Convert.ToInt32(Console.ReadLine());//get input from user,using type casting
+        Console.WriteLine("Enter the num2");
+        var num2=Convert.ToInt32(Console.ReadLine());//get input from user,using type casting
+        
+        //Console.WriteLine("{0}+{0}={1}",num1,num2,num1+num2);
+     
+        Console.WriteLine(num1+"+"+num1+"="+(num1+num2)); //display output
+   
+        
+    }
+}
