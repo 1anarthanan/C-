@@ -2,7 +2,7 @@
 
 using System;
 
-public class Order of priority
+public class Order_of_priority
 {
     public static void Main(string[] args)
     {
