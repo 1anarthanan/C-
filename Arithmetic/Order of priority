@@ -1,0 +1,17 @@
+//Order of priority
+
+using System;
+
+public class Order of priority
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("--Order of priority---");
+        Console.WriteLine("Enter the num1:");
+        var num1=Convert.ToInt32(Console.ReadLine());//get input from user,using type casting
+        Console.WriteLine(-6 + num1 * 5);
+        Console.WriteLine((13-2) * num1);    
+        Console.WriteLine((num1 + -2) * (20 / 10));    
+        Console.WriteLine((12 + num1) / (5 - 4));    
+        }
+}
